@@ -1,5 +1,6 @@
 Simple DNS Server
 =========================================
+
 ### How to compile
 ```bash
 $ gcc -o DNS DNS_Server.c
@@ -18,3 +19,13 @@ $ gcc -o DNS DNS_Server.c
 - Program runs and accepts DNS queries until this program is terminated
 
 **!!NOTE: Make sure port 53 on your machine is available!!**
+
+### Dependencies
+- <stdio.h>
+- <stdlib.h>
+- <string.h>
+- <sys/socket.h>
+- <netinet/in.h>
+- <arpa/inet.h>
+- <unistd.h>
+- <netdb.h>
